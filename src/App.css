@@ -1,0 +1,37 @@
+.ComentProgectBox{
+    display: flex;
+    padding: 30px 0px;
+    flex-direction: column;
+}
+.scroll{
+    display: none;
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        background-color: #02c9b557;
+        color: white;
+        text-align: center;
+        position: fixed;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+         transition: all 0.5s;
+         transition: all 2s;
+         opacity: 0;
+         
+        }
+        .see{
+            opacity: 1;
+            display: flex;
+
+        }
+        .scroll:hover{
+            bottom: 25px;
+        }
+        .scroll i{
+            color: white;
+            font-size: 20px;
+            transform: rotate(180deg);
+        }

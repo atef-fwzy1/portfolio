@@ -1,0 +1,31 @@
+footer{
+display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 37px;
+} 
+@media(max-width:600px){
+    footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+footer ul {
+display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+footer ul li {
+
+}
+footer,
+footer ul li a{
+color: rgb(113 113 122);
+transition: all 0.5;
+}
+
+footer ul li a:hover{
+    color: #02c9b557;
+}
+

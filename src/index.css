@@ -1,0 +1,160 @@
+html{
+  scroll-behavior: smooth;
+}
+*{
+
+  transition: all 0.2s;
+}
+h1,h2,h3,h4,h5,*{
+  padding:0 ;
+  margin: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+:root{
+  --primiry:#000;
+  --scondray:rgb(37, 37, 41);
+  --boredr:2px solid #a79a9a78;
+ --modeShadow: 0 3px 10px rgb(201 188 188 / 48%);
+--secoud-textColor: rgb(188, 190, 192);
+  --textColor:white;
+  --headerShadow:rgb(142 138 138 / 26%) 0px 18px 50px -10px;
+}
+
+body.light{
+  --scondray: rgb(255, 255, 255);
+  --primiry:hsl(0, 0%, 98.04%);
+  --boredr: 1px solid #847d7d52;
+   --textColor:black;
+  --secoud-textColor: rgb(74, 76, 78);
+
+   --headerShadow:rgba(50, 50, 93, 0.25) 0px 10px 43px -12px,
+    rgba(0, 0, 0, 0.3) 0px 5px 20px -18px
+}
+.headerBox i,
+.header{
+  color: var(--secoud-textColor)
+}
+.headerBox i{
+  margin-right: 0px 15px;
+}
+.ProgectCard .text .links .git i,
+.coment .info .name,
+.ProgectCard .text .title{
+  color: var(--textColor);
+}
+
+.header .list {
+  background-color: var(--scondray) !important;
+}
+.header .modes{
+  background-color: var(--scondray) !important;
+  color: var(--textColor);
+  box-shadow: var(--modeShadow);
+  
+}
+    .header .list{
+      color: var(--textColor) !important;
+    }
+
+.header ul li a{
+
+  color: var(--textColor) !important;
+}
+.header ul{
+  border: var(--boredr) !important;
+  color: var(--textColor) !important;
+  box-shadow: var(--headerShadow);
+  background-color: var(--scondray) !important;
+  
+}
+#root{
+  position: relative;
+  overflow: hidden;
+}
+.containetr {
+  height: fit-content;
+  padding: 15px 0px;
+  width: 85%;
+  margin: auto;
+  background-color: var(--scondray);
+  border:2px solid var(--boredr);
+overflow: hidden;
+
+}
+.ProgectCard .text .descraption,
+.coment .info .coment
+{
+color: var(--secoud-textColor)!important;;
+}
+.sections-end{
+  border-bottom: 2px solid var(--secoud-textColor);
+   width: 100%;
+  margin-top: 50px;
+}
+body{
+  background-color:var(--primiry);
+  color: #fff;
+font-family: "Libre Baskerville", serif;
+ 
+}
+.hero .left-section .text-cont h1{
+  color: var(--textColor) !important;
+}
+.hero .left-section .text-cont span{
+  color:var(--secoud-textColor) !important ;
+}
+.hero .left-section .image-con span.outer{
+  color: var(--textColor) !important;
+}
+ .bubble .skile_name{
+  color: var(--textColor) !important;
+ }
+
+.containetr .div_cont .showAll{
+    margin: auto;
+      display: block;
+      padding: 8px 10px;
+      margin-top: 18px;
+      border-radius: 20px;
+      border: none;
+  border: var(--boredr) ;
+    color: var(--textColor) ;
+    box-shadow: var(--headerShadow);
+    background-color: var(--scondray) ;
+  cursor: pointer;
+      transition: all 0.5s;
+}
+.containetr .div_cont .showAll:hover{
+  transform: scale(1.2);
+   background-color: hsl(240, 5.97%, 26.27%);
+   color: white;
+}
+.allSkiles .box-logo::after
+{
+  color: var(--textColor);
+}
+.headerBox{
+display: flex;
+  align-items: center;
+  height: fit-content;
+  padding: 27px 18px;
+  align-items: center;
+}
+.headerSection i{
+
+  font-size: 20px;
+  margin-left: 30px;
+ 
+}
+.headerSection .header{
+  margin: 0px 15px;
+}

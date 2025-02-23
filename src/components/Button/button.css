@@ -1,0 +1,42 @@
+/* <- Demo Stuff Start */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+
+
+.btn {
+padding: 12px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: navajowhite;
+    margin: 15px auto;
+    display: block;
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+}
+
+
+
+.btn-2 {
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+
+/* Magic Stuff End -> */
