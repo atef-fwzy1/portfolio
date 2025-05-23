@@ -15,13 +15,13 @@
    position: relative;
 }
 .hero .left-section .image-con span.outer{
-color: black;
-   position: absolute;
-top: 75px;
-   left: 176px;
-   display: flex;
-   align-items: center;
-   gap: 3px;
+   color: black;
+      position: absolute;
+      top: 127px;
+      left: 180px;
+      display: flex;
+      align-items: center;
+      gap: 3px;
 }
 .hero .left-section .image-con span.outer span.iner{
    width: 10px;
@@ -74,6 +74,7 @@ height: 30px;
 font-size: 25px;
 cursor: pointer;
 transition: all 0.5s;
+color: var(--textColor);
 }
 .hero .left-section ul.linkes li a:hover img{
    transition: all 0.5s ;

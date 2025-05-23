@@ -1,19 +1,17 @@
+import { Link } from "react-router-dom"
 import "./projectsCard.css"
-export default function ProgectCard(){
+export default function ProgectCard(props){
     return(
         <div className="ProgectCard">
-             <img src="Screenshot 2025-01-30 162645.png" alt="err"/>
+             <img src={props.image} alt="err"/>
                   
               <div className="text">
-                     <h3 className="title">progect title</h3>
-                     <span className="descraption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ab hic quisq 
-                        expedita dolorem repellendus nulla fuga exercitationem ut facere temporibus! Deserunt.</span>
+                     <h3 className="title">{props.name}</h3>
                         <div className="links">
                               <div className="git">
-                                         <i class="fa-solid fa-link"></i>
-                                         <i class="fa-brands fa-github"></i>
+                                        <Link to={props.linke}> <i class="fa-solid fa-link"></i></Link>
+                                        <Link to={props.git}><i class="fa-brands fa-github"></i></Link>
                               </div>
-                              <span className="more">more<i class="fa-solid fa-right-long"></i></span>
 
                         </div>
               </div>

@@ -7,9 +7,10 @@ import Hero from './components/2-hrro/Hero';
 import AllSkiles from "./components/animation/AllSkills";
 import AnimationPage from "./components/animation/AnimatonPage";
 import Progects from "./components/projects/ProjectsDiv";
-import ComentsDiv from "./components/ComentsSection/ComentsDiv";
 import ContactUs from "./components/ContactUs/ContactUs";
 import Footer from "./components/footer/Footer";
+import Skills from"./components/skills/skills.jsx"
+import About from "./components/about/about.jsx";
 function App() {
 
 // useEffect(()=>{
@@ -25,31 +26,33 @@ function App() {
   })
 // },[])
 
-  const [handelSkiles,sethandelSkiles]=useState(true);
+
   return (
     <div className="App containetr" id="contact">
           <Header/>
           <Hero/>
+          <About />
           <div className='sections-end'></div>
-          {
-            handelSkiles? <AnimationPage/>:<AllSkiles/>
+          <Skills/>
+        
+     <AnimationPage/>
             
            
-          }
+        
           <div className='sections-end' style={{padding:"0",margin:"0"}}></div>
-             <button class="btn btn-2"  onClick={()=>sethandelSkiles((prev)=>prev?false:true)}>{handelSkiles?"more":"less"}</button>
 
         
          <div className="ComentProgectBox">
          
            <Progects/>
              
-          <ComentsDiv/>
+    
          </div>
           <div className='sections-end'></div>
           <ContactUs/>
           <div className='sections-end'></div>
           <Footer/>
+        
           <a href="#hero">  <button className="scroll"><i class="fa-solid fa-chevron-down"></i></button></a>
     </div>
   );

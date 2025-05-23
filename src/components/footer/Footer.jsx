@@ -9,7 +9,7 @@ export default function Footer(){
         <li><a href="#coments">coments</a></li>
         <li><a href="#projects">Projects</a></li>
        </ul>
-        <p>atef fawzy badalalem</p>
+        <p style={{color:"#149ddd"}}>atef fawzy</p>
         </footer>
     )
 }

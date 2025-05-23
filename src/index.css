@@ -16,7 +16,7 @@ ul{
   list-style: none;
 }
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 :root{
@@ -26,6 +26,7 @@ a{
  --modeShadow: 0 3px 10px rgb(201 188 188 / 48%);
 --secoud-textColor: rgb(188, 190, 192);
   --textColor:white;
+  --accent-color: #149ddd;
   --headerShadow:rgb(142 138 138 / 26%) 0px 18px 50px -10px;
 }
 
@@ -35,7 +36,6 @@ body.light{
   --boredr: 1px solid #847d7d52;
    --textColor:black;
   --secoud-textColor: rgb(74, 76, 78);
-
    --headerShadow:rgba(50, 50, 93, 0.25) 0px 10px 43px -12px,
     rgba(0, 0, 0, 0.3) 0px 5px 20px -18px
 }
@@ -158,3 +158,5 @@ display: flex;
 .headerSection .header{
   margin: 0px 15px;
 }
+
+

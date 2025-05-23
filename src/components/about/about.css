@@ -1,0 +1,80 @@
+.about .content h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.about .content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.about .content ul strong {
+    margin-right: 10px;
+}
+
+.about .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: var(--secoud-textColor);
+    line-height: 0;
+}
+
+/*--------------------------------------------------------------
+  # Stats Section
+  --------------------------------------------------------------*/
+.stats .stats-item {
+    padding: 30px;
+    width: 100%;
+}
+
+.stats .stats-item i {
+    color:red !important;
+    display: block;
+    font-size: 44px;
+    float: left;
+    line-height: 0;
+}
+
+.stats .stats-item .purecounter {
+    color: red!important;
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    margin-left: 60px;
+}
+
+.stats .stats-item p {
+    color: color-mix(in srgb, var(--secoud-textColor), transparent 40%);
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: var(--heading-font);
+    font-size: 14px; }
+
+    .img-fluid{
+        width: 180px;
+            border-radius: 15px;
+            border: 2px solid goldenrod;
+    }
+
+
+.frist{
+    color: var(--textColor);
+}
+.secound{
+   color: var(--secoud-textColor); 
+}
+
+@media(max-width:990px){
+    .edit{
+       flex-direction: row;
+  
+        justify-content: space-around;
+    }
+}

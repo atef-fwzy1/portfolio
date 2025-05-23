@@ -3,7 +3,7 @@ export default function Button({value}){
     return(
 
   
-  <button type="submite" class="btn btn-2">{value}</button>
+  <button style={{display:"block" , margin:"10px auto "}} type="submite" class="btn btn-2">{value}</button>
 
     )
 }
